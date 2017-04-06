@@ -69,7 +69,7 @@
 					old_x = getPos(character).x;
 					old_y = getPos(character).y;
                     old_y++;
-					if (old_y < (window.innerHeight - 128)) {
+					if (old_y < (window.innerHeight - 28)) {
                 		character.style.top = old_y;
                     }
 
@@ -87,7 +87,7 @@
         </div>
 		<script>
         	setInterval("move_character()",1);
-        	setInterval("change_direction()",500);
+        	setInterval("change_direction()",200);
 
         </script>
         
